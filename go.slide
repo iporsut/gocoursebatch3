@@ -1,0 +1,83 @@
+GO
+
+WEERASAK CHONGNGULUAM
+SPRINT3R
+
+* 
+.image go.png 600 _
+
+* 
+.image whatgo.jpg 600 _
+
+* 
+.image gosummary.jpg 600 _
+
+* READABILITY
+
+* 
+"The readability of programs is immeasurably more important than their writeability."
+
+Hints on Programming Language Design
+
+C.A.R. Hoare 1973
+
+* READABILITY
+- Clearly express what we care about
+
+* Charity: Plan for the future
+- program for someone else, years from now
+- one-liners not the gold standard
+- a balance between clarity and redundancy
+
+* Scalability
+
+* System Scale
+
+* Concurrency
+.image gophercomplex4.jpg
+
+* Engineering Scale
+- Language for large code bases
+
+* Software Scale
+- Go 40x speed of compile than C++ (200x)
+
+* Suitability
+- Not all languages are good for all problems
+- Go features makes programming in The Google environment easier, safer, and more productive.
+
+* Go in production at Google 
+- golang.org
+- dl.google.com
+- vitest, part of youtube.com
+- ...
+
+* Go in Devops tool
+- Docker
+- Juju
+
+* Toolability
+- gofmt
+- gofix
+- go get
+- go doc
+- go vet
+- golint
+- ... at https://godoc.org/golang.org/x/tools/cmd
+
+* Conclusion
+
+Clarity is key. = ความชัดเจนถือเป็นหัวใจหลักของ Go (พี่หนุ่มช่วยแปล)
+
+Design for readability, not writeability.
+
+Readability creates clarity, improving:
+- productive
+- scale
+- tooling
+These effects multiply.
+
+* References
+- ภาพประกอบจากเมีย :)
+- เนื้อหาลอกบ้างสรุปบ้างจาก slide ของ Rob Pike ที่ http://inst.eecs.berkeley.edu/~cs294-101/sp15/slides/Go.pdf
+- คำแปล Clarity is key จากพี่หนุ่ม
